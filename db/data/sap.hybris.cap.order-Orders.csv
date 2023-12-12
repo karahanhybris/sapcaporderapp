@@ -1,0 +1,4 @@
+OrderCode;OrderType_code;OrderStatu_code;Distributor;Dealer;CountryCode_code;CurrencyCode_code;TotalPrice;to_Customer_CustomerID
+100000546300;NL;RY;9340090000;Firm;DE;EUR;198.67;5000903
+100000626550;NL;OH;9340090001;Dealer;DE;EUR;1597.32;5000903
+100000525457;NL;OH;9340090001;Dealer;DE;EUR;22452.55;5000903
