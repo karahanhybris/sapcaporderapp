@@ -42,11 +42,13 @@ annotate service.Orders with @(
         Data : [
             {
                 $Type: 'UI.DataField',
-                Value: OrderCode
+                Value: OrderCode,
+                Label: '{i18n>OrderCode}'
             },
             {
                 $Type: 'UI.DataField',
-                Value: Distributor
+                Value: Distributor,
+                Label:'{i18n>Distributor}'
             },
             {
                 $Type: 'UI.DataField',
@@ -54,7 +56,8 @@ annotate service.Orders with @(
             },
             {
                 $Type: 'UI.DataField',
-                Value: CountryCode.name
+                Value: CountryCode.name,
+                Label: '{i18n>Country}',
             }
         ]
     },
@@ -63,7 +66,8 @@ annotate service.Orders with @(
         Data : [
             {
                 $Type: 'UI.DataField',
-                Value: OrderCode
+                Value: OrderCode,
+                Label: '{i18n>OrderCode}'
             },
             {
                 $Type: 'UI.DataField',
@@ -84,19 +88,23 @@ annotate service.Orders with @(
         Data : [
             {
                 $Type: 'UI.DataField',
-                Value: OrderType.name
+                Value: OrderType.name,
+                Label:'{i18n>OrderType}'
             },
             {
                 $Type: 'UI.DataField',
-                Value: OrderStatu.name
+                Value: OrderStatu.name,
+                Label:'{i18n>OrderStatu}'
             },
             {
                 $Type: 'UI.DataField',
-                Value: CurrencyCode.name
+                Value: CurrencyCode.name,
+                Label:'{i18n>CurrencyUnit}'
             },
             {
                 $Type: 'UI.DataField',
-                Value: TotalPrice
+                Value: TotalPrice,
+                Label:'{i18n>TotalPrice}'
             }
         ]
     },
@@ -113,7 +121,8 @@ annotate service.Orders with @(
             },
             {
                 $Type: 'UI.DataField',
-                Value: CurrencyCode_code
+                Value: CurrencyCode_code,
+                Label:'{i18n>CurrencyUnit}'
             },
             {
                 $Type: 'UI.DataField',
@@ -142,7 +151,8 @@ annotate service.Orders with @(
             },
             {
                 $Type: 'UI.DataField',
-                Value: to_Customer.CountryCode.name
+                Value: to_Customer.CountryCode.name,
+                Label:'{i18n>Country}'
             }
         ]
     },
