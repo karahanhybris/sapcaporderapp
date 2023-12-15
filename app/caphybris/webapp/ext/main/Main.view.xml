@@ -20,7 +20,8 @@
                 <macros:Table metaPath="@com.sap.vocabularies.UI.v1.LineItem" 
                               readOnly="true" 
                               id="orderLineItemTable" 
-                              filterBar="orderFilterBar"/>
+                              filterBar="orderFilterBar"
+                              />
                               
             </Panel>
         	
